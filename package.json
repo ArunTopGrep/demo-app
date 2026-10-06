@@ -1,0 +1,12 @@
+{
+  "name": "auth-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Demo app exercising every terminal of qtrace's auth-point backward-taint engine (Protected/adequate, Protected/inadequate, Unprotected, Inconclusive) across bare password/secret/token/otp/mac comparisons, plus same-file and cross-file function following.",
+  "main": "src/app.js",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "crypto-js": "^4.2.0",
+    "express": "^4.19.2"
+  }
+}
